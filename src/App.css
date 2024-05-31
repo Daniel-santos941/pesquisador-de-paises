@@ -1,0 +1,54 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.container main .image-container {
+  width: 360px;
+}
+
+.container main .image-container img {
+  width: 100%;
+}
+
+.container main .content {
+  margin-top: 38px;
+  text-align: center;
+}
+
+.container main .content h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.container main .content .base-input {
+  background-color: #d9d9d9;
+  width: 450px;
+  border-radius: 8px;
+  height: 35px;
+  margin-top: 55px;
+  display: flex; 
+  overflow: hidden;
+}
+
+.container main .content .base-input input {
+  width: 90%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 10px 15px;
+}
+
+.container main .content .base-input .icon-container {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

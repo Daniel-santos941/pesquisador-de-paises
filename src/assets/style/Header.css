@@ -1,0 +1,14 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.cabecalho .logo-title {
+    width: 250px;
+}
+
+.cabecalho .logo-title h1 {
+    font-size: 1.3rem;
+}
